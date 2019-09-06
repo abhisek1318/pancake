@@ -33,7 +33,7 @@ function fetchPosts() {
     for (var i=0; posts != null && i < posts.length; i++) {
         var id= posts[i].id;
         var desc= posts[i].description;
-        postList.innerHTML += '<div class="container"'+
+        postList.innerHTML += '<div class="container">'+
                               '<div class="well">'+
                               '<h3>Post ID: ' + id + '</h3>'+
                               '<h4>' + desc + '</h4>'+   
